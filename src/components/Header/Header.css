@@ -4,6 +4,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #eee;
+    background-color: #3d2c9d;
+    color: #00bde3
+    font-size: 30px;
   }
   
