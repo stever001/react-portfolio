@@ -1,21 +1,3 @@
-// import React from 'react';
-// import './Navigation.css'; // Importing Navigation-specific styles
-
-// function Navigation() {
-//   return (
-//     <nav>
-//       <ul>
-//         <li><a href="/contact">Contact</a></li>
-//         <li><a href="/about-me">About Me</a></li>
-//         <li><a href="/portfolio">Portfolio</a></li>
-//         <li><a href="/resume">Resume</a></li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
-// export default Navigation;
-
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navigation.css'; // Ensure the path is correct
@@ -46,7 +28,7 @@ function Navigation() {
       <ul>
         {filteredLinks.map((link, index) => (
           <li key={index}>
-            <Link to={link.path} style={{ color: 'white', textDecoration: 'none' }}>
+            <Link to={link.path} className="nav-link">
               {link.label}
             </Link>
           </li>
