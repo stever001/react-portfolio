@@ -29,8 +29,8 @@ nav ul li a {
 /* Add hover effects or other styles as needed */
 /* Ensures a higher specificity for the hover effect */
 nav ul li a:hover {
-  color: #aaf1c3; /* Example: Change text color on hover */
-  background-color: #282828; /* Example: Change background color on hover */
+  color: #0b0070; /* Example: Change text color on hover */
+  background-color: #04b0ca; /* Example: Change background color on hover */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for both background and text color */
 }
 

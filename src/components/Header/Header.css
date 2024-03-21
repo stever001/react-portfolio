@@ -7,7 +7,7 @@ header {
   align-items: flex-start; /* Aligns items to the start (left) */
   text-align: left; /* Ensures text alignment is to the left for the h1 */
   padding: 1rem;
-  background-color: #3d2c9d;
+  background-color: black;
   color: white;
   position: fixed;
   top: 0;
@@ -18,6 +18,10 @@ header {
 }
 
 h1 {
+  font-family: (Arial, Helvetica, sans-serif);
+  font-weight: 100;
+  font-stretch: semi-expanded;
+  
   margin: 0;
   padding-right: 1rem; /* Provides some spacing next to h1, if needed */
 }
