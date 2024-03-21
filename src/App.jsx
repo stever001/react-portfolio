@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Resume from './components/Resume/Resume.jsx';
+import CompositeImage from './components/CompositeImage/CompositeImage.jsx';
 import './App.css';
 
 function App() {

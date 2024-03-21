@@ -1,7 +1,14 @@
-/* Example styling */
+/* Footer.css */
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color:black
-  }
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: white; /* Assuming you want white text for contrast */
+  width: 100%;
+  /* Makes the footer stick to the bottom */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
   

@@ -1,17 +1,49 @@
-/* Example styling */
+/* /Navigation/Navigation.css */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers navigation items by default */
+  padding: 0;
+}
+
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers the list items horizontally */
+  gap: 30px; /* Space between navigation items */
+}
+
+/* Target the <a> tags directly to change text color and add border */
+nav ul li a {
+  color: white; /* Sets the text color of links to white */
+  text-decoration: none; /* Removes the underline from links */
+  padding: 5px 12px; /* Adjust padding to control the size of the border box */
+  border: 1px solid white; /* Adds a border around each navigation item */
+  display: inline-block; /* Changes display to inline-block for padding and border */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Add hover effects or other styles as needed */
+nav ul li a:hover {
+  color: #aaf1c3; /* Example: Change text color on hover */
+  background-color: #282828; /* Example: Change background color on hover */
+}
+
+@media (max-width: 768px) {
+  nav, nav ul {
+    font-size: 0.8rem; /* Smaller font size for navigation items */
+    justify-content: flex-start; /* Aligns navigation items to the left */
   }
-  
+
+  nav ul {
+    gap: 18px; /* Adjusts the gap between navigation items for smaller screens */
+  }
+
+  /* Optional: Adjust navigation item properties for smaller screens */
   nav ul li a {
-    text-decoration: none;
-    color: #333;
+    padding: 3px 5px; /* Adjusts padding for smaller screens */
   }
-  
-  nav ul li a.active {
-    font-weight: bold;
-  }
-  
+}

@@ -1,0 +1,32 @@
+/* CompositeImage.css */
+.composite-image {
+  display: grid;
+  grid-template-areas: "image";
+  position: relative;
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  opacity: 0.2; /* Adjust the opacity to your liking */
+  grid-area: image;
+  transition: transform 1s ease-out; /* Animation transition */
+}
+
+.red-filter {
+  filter: sepia(1) hue-rotate(-70deg) saturate(5);
+  mix-blend-mode: multiply;
+}
+.yellow-filter {
+  filter: sepia(1) hue-rotate(20deg) saturate(5);
+  mix-blend-mode: multiply;
+}
+.blue-filter {
+  filter: sepia(1) hue-rotate(210deg) saturate(5);
+  mix-blend-mode: multiply;
+}
+
+.composite-image:hover .headshot {
+  transform: rotate(var(--mouse-x)) rotateY(var(--mouse-y));
+}

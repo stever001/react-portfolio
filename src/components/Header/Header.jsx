@@ -1,6 +1,6 @@
 import React from 'react';
-import Navigation from '../Navigation/Navigation'; // Adjust the path if necessary
-import './Header.css'; // Assume you also have a CSS file for styling
+import Navigation from '../Navigation/Navigation';
+import './Header.css'; // Importing Header-specific styles
 
 function Header() {
   return (
@@ -12,3 +12,5 @@ function Header() {
 }
 
 export default Header;
+
+
