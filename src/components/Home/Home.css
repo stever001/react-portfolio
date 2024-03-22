@@ -1,4 +1,14 @@
-.Home {
-    color: white;
-    padding: 20px
+.home-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Makes the container take up the full viewport height */
+    color: rgb(234, 20, 20); /* Corrected color syntax */
+    padding: 20px;
 }
+
+/* Optional: If you want to adjust the vertical position, you can modify the margin-top property of h2 */
+h2 {
+    margin-top: 0px; /* Adjust this value to move the h2 vertically */
+}
+

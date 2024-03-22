@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap as needed */
+    max-width: 300px; /* Adjust the width as needed */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 9px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00bde3;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #0b0070;
+    background-color: #1cbed7;
+    transition: background-color 0.2s;
+  }
+  /* ContactForm.css */
+.form-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important; /* Center the container itself */
+  width: 100% !important;
+  max-width: 400px !important; /* Adjust based on desired form width */
+  backdrop-filter: blur(10px) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  padding: 2rem !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+  
+  
