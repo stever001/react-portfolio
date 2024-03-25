@@ -1,0 +1,111 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.card {
+  width: 80px;
+  border-radius: .75rem;
+  background: #f0f0f0;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.20,-0.03,0,.99);
+  box-shadow: 0px 10px30px rgba(0,0,0,0.8);
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.icon {
+  background: #223;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.card > .row > .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.description p {
+  color: #b0b0ba;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.description h4 {
+  text-transform: uppercase;
+  color: #333; /* Sets the text color to a darker shade for visibility */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the title bold */
+  margin: 0 0 10px 0; /* Adds spacing below the title */
+  text-align: center; /* Center-aligns the title text */
+}
+
+/* input {
+  display: none;
+} */
+
+input[type="radio"]:checked + label {
+  background: white;
+  width: 600px;
+}
+
+input[type="radio"]:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.card[for="c1"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
+.card[for="c2"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
+.card[for="c3"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
+.card[for="c4"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
+.card[for="c5"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
+.card[for="c6"] {
+  background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+}
