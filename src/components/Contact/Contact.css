@@ -9,6 +9,7 @@
 
 h2 {
   color: white; /* Or any color you prefer */
+  font-size: 3rem;
   margin-bottom: 3px; /* Space between the h2 and the form */
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ContactForm.css';
 
 function ContactForm() {
@@ -7,7 +7,19 @@ function ContactForm() {
     email: '',
     message: '',
   });
-  const [submitted, setSubmitted] = useState(false); // Add submitted state
+  const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (submitted) {
+      // Set a timer to reset the form after 5 seconds
+      const timer = setTimeout(() => {
+        setSubmitted(false); // Reset the submitted state
+        setFormData({ name: '', email: '', message: '' }); // Clear the form inputs
+      }, 3000);
+
+      return () => clearTimeout(timer); // Cleanup the timer on component unmount
+    }
+  }, [submitted]); // Effect depends on the `submitted` state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,13 +32,13 @@ function ContactForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic here, e.g., sending data to a server
-    alert('Form submitted!'); // Placeholder for submission action
-    setSubmitted(true); // Set submitted state to true
+    // alert('Form submitted!'); // Placeholder for submission action
+    setSubmitted(true); // Set submitted state to true without clearing formData here
   };
 
   return (
     <div className="form-container">
-      {submitted ? ( // Conditional rendering for success message
+      {submitted ? (
         <p>Form submitted successfully!</p>
       ) : (
         <form onSubmit={handleSubmit}>
@@ -48,7 +60,7 @@ function ContactForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-                required
+              required
             />
           </div>
           <div className="form-group">
@@ -69,7 +81,6 @@ function ContactForm() {
   );
 }
 
-// Assuming you might want to apply the wrapper for centering if needed
 function ContactFormWrapper() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
@@ -78,7 +89,8 @@ function ContactFormWrapper() {
   );
 }
 
-export default ContactFormWrapper
+export default ContactFormWrapper;
+
 
 
 
