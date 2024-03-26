@@ -1,8 +1,9 @@
 // /components/PortfolioGrid/PortfolioGrid.jsx
 import React from 'react';
 import './PortfolioGrid.css';
+import portfolioItems from '../../data/portfolioItems.json'; // Adjust the path as necessary
 
-const PortfolioGrid = ({ portfolioItems }) => {
+const PortfolioGrid = () => {
   return (
     <div className="portfolio-grid-container">
       {portfolioItems.map((item) => (
@@ -19,3 +20,4 @@ const PortfolioGrid = ({ portfolioItems }) => {
 };
 
 export default PortfolioGrid;
+
