@@ -1,0 +1,37 @@
+/* /components/Portfolio/Portfolio.css */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center; /* This centers the grid items horizontally */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .portfolio-item {
+    background-color: #5942d2;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    background-color: #00bde3;
+  }
+  
+  .portfolio-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Adjust as needed */
+  }
+  
+  .portfolio-item-info {
+    padding: 15px;
+  }
+  
+  .portfolio-item-info h3 {
+    margin-top: 0;
+    font-weight: 500;
+  }
+  

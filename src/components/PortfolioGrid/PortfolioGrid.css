@@ -1,0 +1,10 @@
+/* /components/PortfolioGrid/PortfolioGrid.css */
+.portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  /* Plus other styles for .portfolio-item, .portfolio-image, etc. */
+  

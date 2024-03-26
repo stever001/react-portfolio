@@ -9,3 +9,12 @@ body {
   margin: 0 auto; 
   padding: 20px;
 }
+main {
+  padding-top: 100px; /* This is for desktop, adjust as needed */
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 100px; /* This is for mobile, adjust as needed */
+  }
+}

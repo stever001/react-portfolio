@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Weather App",
+      "description": "Current weather and a 5-day forecast for any city in the USA.",
+      "imageUrl": "/path/to/image.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Monacado",
+      "description": "Project management tool.",
+      "imageUrl": "/path/to/another-image.jpg"
+    }
+   
+  ]
+  
