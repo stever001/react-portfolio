@@ -21,7 +21,6 @@ h1 {
   font-family: (Arial, Helvetica, sans-serif);
   font-weight: 100;
   font-stretch: semi-expanded;
-  
   margin: 0;
   padding-right: 1rem; /* Provides some spacing next to h1, if needed */
 }
