@@ -1,7 +1,8 @@
 /* This is the container for the portfolio grid */
 .portfolio-grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   justify-content: center;
   gap: 20px;
   padding: 20px;
@@ -9,18 +10,21 @@
 
 /* Styling specific to each portfolio item */
 .portfolio-grid-container .portfolio-item {
-  background-color: #5942d2;
+  /* background-color: #5942d2; */
   color: #fff;
+  border: 1px solid rgb(78, 197, 82);
   border-radius: 8px;
+  background: rgba(31, 30, 30, 0.5); /* Semi-transparent overlay for text legibility */
   overflow: hidden;
   transition: transform 0.3s ease;
-  min-height: 250px; /* Adjust this as needed */
+  min-height: 400px; 
+  min-width: 400px;
 }
 
 /* Hover effect for each portfolio item */
 .portfolio-grid-container .portfolio-item:hover {
-  transform: translateY(-5px);
-  background-color: #00bde3;
+  transform: translateY(-8px);
+  /* background-color: #00bde3; */
 }
 
 /* Styling for the images in each portfolio item */
@@ -34,7 +38,6 @@
 .portfolio-grid-container .portfolio-item .portfolio-item-info {
   position: relative;
   bottom: 0;
-  
   width: 100%;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text legibility */
   text-align: center;
