@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 main {
-  padding-top: 100px; /* This is for desktop, adjust as needed */
+  padding-top: 100px; /* This is for desktop, just adjust as needed */
 }
 
 @media (max-width: 768px) {

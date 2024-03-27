@@ -2,14 +2,14 @@
     {
       "id": 1,
       "title": "Weather App",
-      "description": "Current weather and a 5-day forecast for any city in the USA.",
+      "description": "Current weather and a 5-day forecast",
       "imageUrl": "./assets/weather-app.png"
     },
     {
       "id": 2,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/weather-app.png"
+      "imageUrl": "./assets/monacado.png"
     }
   
   ]
