@@ -32,9 +32,9 @@
 
 /* The container for the text overlaying the portfolio item image */
 .portfolio-grid-container .portfolio-item .portfolio-item-info {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  padding: 15px;
+  
   width: 100%;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text legibility */
   text-align: center;
