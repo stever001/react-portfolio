@@ -5,7 +5,7 @@
   /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   justify-content: center;
   gap: 20px;
-  padding: 20px;
+  padding: 150px;
 }
 
 /* Styling specific to each portfolio item */
@@ -14,10 +14,10 @@
   color: #fff;
   border: 1px solid rgb(78, 197, 82);
   border-radius: 8px;
-  background: rgba(31, 30, 30, 0.5); /* Semi-transparent overlay for text legibility */
+  background: rgba(116, 111, 111, 0.463); /* Semi-transparent overlay for text legibility */
   overflow: hidden;
   transition: transform 0.3s ease;
-  min-height: 400px; 
+  min-height: 425px; 
   min-width: 400px;
 }
 
@@ -30,24 +30,34 @@
 /* Styling for the images in each portfolio item */
 .portfolio-grid-container .portfolio-item .portfolio-image {
   width: 100%;
-  height: 250px; /* Fixed height, or adjust as needed */
+  height: 425px; /* Fixed height, or adjust as needed */
   object-fit: cover;
 }
 
 /* The container for the text overlaying the portfolio item image */
 .portfolio-grid-container .portfolio-item .portfolio-item-info {
-  position: relative;
-  bottom: 0;
+  position: fixed;
+  bottom: 2px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text legibility */
-  text-align: center;
+  text-align: left;
+  font-weight: 200;
 }
 
 /* Styling for the title within the portfolio item */
 .portfolio-grid-container .portfolio-item .portfolio-item-info h3 {
-  margin: 0;
-  font-weight: 500;
+  text-align: left;
+  margin: 3px;
+  font-weight: 400;
   color: white; /* Ensures text is visible on the overlay */
 }
 
-
+@media screen and (max-width: 768px) {
+  .portfolio-grid-container {
+    padding: 50px;
+  }
+  .portfolio-grid-container .portfolio-item {
+    min-width: 300px;
+    min-height: 350px;
+  }
+}

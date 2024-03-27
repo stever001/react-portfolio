@@ -6,6 +6,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
+# Links
+Stack Overflow: https://stackoverflow.com/users/23851249/steve-rouse
+Linked In: linkedin.com/in/rouses
+Facebook: https://www.facebook.com/profile.php?id=100085502154901
+
 
 # React Challenge: React Portfolio
 Now that you’ve completed multiple projects, your task is to create a portfolio, using your new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.

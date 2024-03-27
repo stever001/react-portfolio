@@ -3,37 +3,39 @@
       "id": 1,
       "title": "Weather App",
       "description": "Current Weather and Forecast",
-      "imageUrl": "./assets/weather-app.png"
+      "imageUrl": "/assets/weather-dash.png"
+
     },
     {
       "id": 2,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/monacado.png"
+      "imageUrl": "/assets/monacado.png"
+
     },
     {
       "id": 3,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/monacado.png"
+      "imageUrl": "/assets/monacado.png"
     },
     {
       "id": 4,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/monacado.png"
+      "imageUrl": "/assets/monacado.png"
     },
     {
       "id": 5,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/monacado.png"
+      "imageUrl": "/assets/monacado.png"
     },
     {
       "id": 6,
       "title": "Monacado",
       "description": "The Monacado Network.",
-      "imageUrl": "./assets/monacado.png"
+      "imageUrl": "/assets/monacado.png"
     }
   ]
   

@@ -9,6 +9,39 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+
+}
+.footer-icons {
+  display: flex;
+  align-items: center; /* Aligns the icons vertically */
+  justify-content: center; /* Centers the icons horizontally */
 }
 
+.footer-icons a {
+  font-size: 24px; /* Sets the size of the icons */
+  margin-left: 20px; /* Adds spacing between icons */
+  /* Removes text decoration to clean up the links */
+  text-decoration: none; 
+  /* This transition is for the color change effect on hover */
+  transition: color 0.3s ease-in-out;
+} 
+
+/* Specific colors for each icon */
+.footer-icons a.icon-stack-overflow {
+  color: #f48024; /* Stack Overflow color */
+}
+
+.footer-icons a.icon-linkedin {
+  color: #55aad8; /* LinkedIn color */
+}
+
+.footer-icons a.icon-facebook {
+  color: #4267B2; /* Facebook color */
+}
+
+/* Hover effects for each icon */
+.footer-icons a:hover {
+  /* Adjust the color or add other effects for hover state */
+  opacity: 0.8;
+}
   
