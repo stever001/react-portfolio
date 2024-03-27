@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Weather App",
-      "description": "Current weather and a 5-day forecast",
+      "description": "Current Weather and Forecast",
       "imageUrl": "./assets/weather-app.png"
     },
     {
