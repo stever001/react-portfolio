@@ -1,41 +1,44 @@
 [
-    {
-      "id": 1,
-      "title": "Weather App",
-      "description": "Current Weather and Forecast",
-      "imageUrl": "/assets/weather-dash.png"
-
-    },
-    {
-      "id": 2,
-      "title": "Monacado",
-      "description": "The Monacado Network.",
-      "imageUrl": "/assets/monacado.png"
-
-    },
-    {
-      "id": 3,
-      "title": "Monacado",
-      "description": "The Monacado Network.",
-      "imageUrl": "/assets/maze.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Monacado",
-      "description": "The Monacado Network.",
-      "imageUrl": "/assets/processor.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Monacado",
-      "description": "The Monacado Network.",
-      "imageUrl": "/assets/routing.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Monacado",
-      "description": "The Monacado Network.",
-      "imageUrl": "/assets/diagram.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Weather App",
+    "description": "Click Octocat to see the Repo",
+    "imageUrl": "/assets/weather-dash.png",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  },
+  {
+    "id": 2,
+    "title": "Monacado",
+    "description": "Click Octocat to see the Repo",
+    "imageUrl": "/assets/monacado.png",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  },
+  {
+    "id": 3,
+    "title": "Maze Solver",
+    "description": "Click Octocat to see the Repo.",
+    "imageUrl": "/assets/maze.jpg",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  },
+  {
+    "id": 4,
+    "title": "Processor Simulator",
+    "description": "Click Octocat to see the Repo",
+    "imageUrl": "/assets/processor.jpg",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  },
+  {
+    "id": 5,
+    "title": "Routing Algorithm Visualizer",
+    "description": "Click Octocat to see the Repo",
+    "imageUrl": "/assets/routing.jpg",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  },
+  {
+    "id": 6,
+    "title": "Network Diagram Tool",
+    "description": "Click Octocat to see the Repo",
+    "imageUrl": "/assets/diagram.jpg",
+    "githubUrl": "https://github.com/stever001/weather-dash"
+  }
+]

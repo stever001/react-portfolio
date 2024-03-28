@@ -1,0 +1,92 @@
+.resume-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 75px;
+  }
+  
+  .skills-section {
+    display: flex;
+    justify-content: center; /* Keeps the content centered, adjust as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    width: 100%;
+    max-width: 800px; /* Adjust based on your layout's needs */
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 2rem; /* Adds padding inside the .skills-section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .skills-column {
+    width: 30%;
+  }
+  
+  .skills-column h2 {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size:xx-large
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  .skills-section ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .skills-section ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #4CAF50; /* Adjust the color as needed */
+  }
+  
+  
+  .download-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+  }
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .skills-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .skills-column {
+      width: 80%; /* Adjust the width as needed for smaller screens */
+      /* Reset any margins if necessary */
+      margin-bottom: 20px; /* Adds space between the columns when stacked */
+    }
+  
+    /* If you have a specific margin-right on the first column in a multi-column layout, you might want to reset it here */
+    .skills-column:last-child {
+      margin-bottom: 0; /* Removes the bottom margin on the last item if necessary */
+    }
+    /* Additional space for the download button */
+  .download-btn {
+    margin-top: 1rem; /* Ensures there's sufficient space above the button */
+    margin-bottom: 7rem; /* Adds extra space below the button for scrollability */
+  }
+  }

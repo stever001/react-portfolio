@@ -17,8 +17,8 @@
   background: rgba(116, 111, 111, 0.463); /* Semi-transparent overlay for text legibility */
   overflow: hidden;
   transition: transform 0.3s ease;
-  min-height: 425px; 
-  min-width: 400px;
+  width: 400px; 
+  height: 400px;
 }
 
 /* Hover effect for each portfolio item */
@@ -39,7 +39,7 @@
   position: fixed;
   bottom: 2px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text legibility */
+  background: rgba(11, 10, 10, 0.663); /* Semi-transparent overlay for text legibility */
   text-align: left;
   font-weight: 200;
 }
@@ -50,6 +50,21 @@
   margin: 3px;
   font-weight: 400;
   color: white; /* Ensures text is visible on the overlay */
+}
+.portfolio-grid-container .portfolio-item-info .github-icon {
+  margin-left: 10px;
+  color: white
+  ; /* Adjust the color as needed */
+}
+
+.portfolio-grid-container .portfolio-item-info .github-icon:hover {
+  color: #cccccc; /* Adjust hover color as needed */
+}
+
+/* Adjust the font size for the icon if necessary */
+.portfolio-grid-container .portfolio-item-info .github-icon svg {
+  width: 35px; /* Adjust icon size as needed */
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
