@@ -39,9 +39,9 @@
   position: fixed;
   bottom: 2px;
   width: 100%;
-  background: rgba(11, 10, 10, 0.663); /* Semi-transparent overlay for text legibility */
+  background: rgba(11, 10, 10, 0.967);
   text-align: left;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* Styling for the title within the portfolio item */
@@ -63,7 +63,7 @@
 
 /* Adjust the font size for the icon if necessary */
 .portfolio-grid-container .portfolio-item-info .github-icon svg {
-  width: 35px; /* Adjust icon size as needed */
+  width: 25px; /* Adjust icon size as needed */
   height: auto;
 }
 

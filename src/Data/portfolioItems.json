@@ -1,44 +1,49 @@
 [
   {
     "id": 1,
-    "title": "Weather App",
-    "description": "Click Octocat to see the Repo",
-    "imageUrl": "/assets/weather-dash.png",
-    "githubUrl": "https://github.com/stever001/weather-dash"
+    "title": "Ecommerce Backend",
+    "description": "Click Octocat to see the Repo.",
+    "imageUrl": "/assets/diagram.jpg",
+    "githubUrl": "https://github.com/stever001/ecom"
   },
+
   {
-    "id": 2,
+  "id": 2,
+  "title": "Horiseon Refactor",
+  "description": "Click Octocat to see the Repo",
+  "imageUrl": "/assets/processor.jpg",
+  "githubUrl": "https://github.com/stever001/horiseon-refactor"
+},
+
+{
+  "id": 3,
+  "title": "Weather Dash",
+  "description": "Click Octocat to see the Repo",
+  "imageUrl": "/assets/weather-dash.png",
+  "githubUrl": "https://github.com/stever001/weather-dash"
+},
+
+  {
+    "id": 4,
     "title": "Monacado",
     "description": "Click Octocat to see the Repo",
     "imageUrl": "/assets/monacado.png",
-    "githubUrl": "https://github.com/stever001/weather-dash"
+    "githubUrl": "https://Monacado.com"
   },
-  {
-    "id": 3,
-    "title": "Maze Solver",
-    "description": "Click Octocat to see the Repo.",
-    "imageUrl": "/assets/maze.jpg",
-    "githubUrl": "https://github.com/stever001/weather-dash"
-  },
-  {
-    "id": 4,
-    "title": "Processor Simulator",
-    "description": "Click Octocat to see the Repo",
-    "imageUrl": "/assets/processor.jpg",
-    "githubUrl": "https://github.com/stever001/weather-dash"
-  },
+  
   {
     "id": 5,
-    "title": "Routing Algorithm Visualizer",
+    "title": "SVG Logo Maker",
     "description": "Click Octocat to see the Repo",
     "imageUrl": "/assets/routing.jpg",
-    "githubUrl": "https://github.com/stever001/weather-dash"
+    "githubUrl": "https://github.com/stever001/svg-logo-maker"
   },
+
   {
     "id": 6,
-    "title": "Network Diagram Tool",
+    "title": "Password Generator",
     "description": "Click Octocat to see the Repo",
     "imageUrl": "/assets/diagram.jpg",
-    "githubUrl": "https://github.com/stever001/weather-dash"
+    "githubUrl": "https://github.com/stever001/password-generator"
   }
 ]
