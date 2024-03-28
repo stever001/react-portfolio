@@ -1,7 +1,11 @@
 # Steve Rouse Portfolio
 
 ## Description
-This is a portfolio website to highlight my Full-Stack web develoment skills.
+This is a portfolio website to highlight my Full-Stack web develoment skills.  
+Here is a screen shot of the portfolio page:  
+
+![screenshot](public/assets/screenshot.png "Screenshot")
+
 
 ## Table of Contents
 - [Dev Tools Used](#dev-tools-used)
@@ -21,7 +25,7 @@ FontAwesome
 
 ## Links
 Github: https://github.com/stever001/react-portfolio  
-Deployed site: 
+Deployed site: https://symphonious-pastelito-8d2626.netlify.app
 
 ## License
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
