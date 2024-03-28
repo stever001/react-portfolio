@@ -39,6 +39,9 @@ footer {
 .footer-icons a.icon-facebook {
   color: #4267B2; /* Facebook color */
 }
+.footer-icons a.icon-github {
+  color: #42b258; /* Github color */
+}
 
 /* Hover effects for each icon */
 .footer-icons a:hover {

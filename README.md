@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 Stack Overflow: https://stackoverflow.com/users/23851249/steve-rouse
 Linked In: linkedin.com/in/rouses
 Facebook: https://www.facebook.com/profile.php?id=100085502154901
-
+GitHub: 
 
 # React Challenge: React Portfolio
 Now that you’ve completed multiple projects, your task is to create a portfolio, using your new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
