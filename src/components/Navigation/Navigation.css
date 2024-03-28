@@ -33,7 +33,11 @@ nav ul li a:hover {
   background-color: #04b0ca; /* Example: Change background color on hover */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for both background and text color */
 }
-
+nav ul li.active a {
+  background-color: #04b0ca; /* Change as needed to match your design */
+  color: #0b0070; /* Change as needed */
+  border-color: #04b0ca; /* Optional: change the border color to match the background */
+}
 
 @media (max-width: 768px) {
   nav, nav ul {

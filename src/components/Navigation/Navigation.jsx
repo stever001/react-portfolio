@@ -8,26 +8,17 @@ function Navigation() {
 
   // Define your navigation links
   const navLinks = [
-    { path: "/", label: "Home" },
+    { path: "/", label: "About Me" },
     { path: "/contact", label: "Contact" },
-    { path: "/about-me", label: "About Me" },
     { path: "/portfolio", label: "Portfolio" },
     { path: "/resume", label: "Resume" },
   ];
 
-  // Filter out the link to the current page, and ensure "Home" is included
-  const filteredLinks = navLinks.filter(link => link.path !== currentPath);
-
-  // If we're not on the Home page, ensure the length is 4 by removing the extra link
-  if (currentPath !== "/" && filteredLinks.length > 4) {
-    filteredLinks.pop(); // Removes the last link if we're not on Home and have more than 4 links
-  }
-
   return (
     <nav>
       <ul>
-        {filteredLinks.map((link, index) => (
-          <li key={index}>
+        {navLinks.map((link, index) => (
+          <li key={index} className={currentPath === link.path ? 'active' : ''}>
             <Link to={link.path} className="nav-link">
               {link.label}
             </Link>
@@ -39,3 +30,4 @@ function Navigation() {
 }
 
 export default Navigation;
+
