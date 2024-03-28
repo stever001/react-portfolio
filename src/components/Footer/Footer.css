@@ -24,6 +24,7 @@ footer {
   text-decoration: none; 
   /* This transition is for the color change effect on hover */
   transition: color 0.3s ease-in-out;
+  padding-top: 10px; /* Adjusts the vertical position of the icons */
 } 
 
 /* Specific colors for each icon */
