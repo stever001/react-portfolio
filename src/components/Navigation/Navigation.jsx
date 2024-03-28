@@ -9,9 +9,9 @@ function Navigation() {
   // Define your navigation links
   const navLinks = [
     { path: "/", label: "About Me" },
-    { path: "/contact", label: "Contact" },
     { path: "/portfolio", label: "Portfolio" },
     { path: "/resume", label: "Resume" },
+    { path: "/contact", label: "Contact" },
   ];
 
   return (

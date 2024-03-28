@@ -1,11 +1,13 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Aligns content to the top */
   align-items: center;
-  min-height: 100vh; /* Adjusted to take up the full viewport height */
-  width: 100%
+  padding-top: 15vh; /* Adjust this value to control the top spacing */
+  min-height: 100vh; /* Full viewport height */
+  width: 100%;
 }
+
 
 h2 {
   color: white; /* Or any color you prefer */
@@ -16,10 +18,9 @@ h2 {
 .contact-form {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Set a max-width if you want to limit form width */
-  
-  align-items: center; /* Center form elements horizontally */
-  margin: auto; /* Ensures margin on all sides */
+  width: 100%; /* Optionally set a max-width */
+  align-items: center;
+  margin: auto;
 }
 
 .form-group {
