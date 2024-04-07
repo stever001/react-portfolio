@@ -32,7 +32,7 @@ function Resume() {
         </div>
       </div>
       {/* Replace the button with an <a> tag for downloading the resume */}
-      <a href="/resume/rouse23.docx" download="rouse23.docx" className="download-btn">
+      <a href="/resume/rouse24.docx" download="rouse23.docx" className="download-btn">
         Download Resume
       </a>
     </div>
